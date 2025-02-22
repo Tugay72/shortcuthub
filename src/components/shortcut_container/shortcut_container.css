@@ -1,0 +1,23 @@
+
+.shortcut-main{
+
+    width: 256px;
+    height: 96px;
+    padding: 8px;
+    
+
+    background-color: #1a1a1a;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 8px 2px 16px #00000080;
+    
+}
+
+.shortcut-main h4{
+
+    color: #EA580C;
+}
+
+.shortcut-main p{
+    color: whitesmoke;
+}

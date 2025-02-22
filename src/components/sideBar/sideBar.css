@@ -1,0 +1,16 @@
+.sidebar-main{
+    position: relative;
+    top: 24px;
+    left: 16px;
+
+    height: 95%;
+
+    margin-right: 48px;
+}
+
+.sidebar-main ul{
+    border-right: transparent !important;
+    border-radius: 16px !important;
+    box-shadow: 12px 0px 16px #00000075 !important;
+    
+}

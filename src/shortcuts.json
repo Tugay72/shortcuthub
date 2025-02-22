@@ -1,0 +1,36 @@
+{
+    "vscode": {
+        "general": [
+            { "action": "Show Command Palette", "shortcut": "Ctrl + Shift + P" },
+            { "action": "Open Settings", "shortcut": "Ctrl + ," },
+            { "action": "Toggle Sidebar", "shortcut": "Ctrl + B" }
+        ],
+        "editing": [
+            { "action": "Copy Line Down", "shortcut": "Shift + Alt + ↓" },
+            { "action": "Copy Line Up", "shortcut": "Shift + Alt + ↑" },
+            { "action": "Move Line Down", "shortcut": "Alt + ↓" },
+            { "action": "Move Line Up", "shortcut": "Alt + ↑" },
+            { "action": "Delete Line", "shortcut": "Ctrl + Shift + K" },
+            { "action": "Toggle Line Comment", "shortcut": "Ctrl + /" }
+        ],
+        "navigation": [
+            { "action": "Switch Between Tabs", "shortcut": "Ctrl + Tab" },
+            { "action": "Go Back", "shortcut": "Alt + ←" },
+            { "action": "Go Forward", "shortcut": "Alt + →" },
+            { "action": "Open File Explorer", "shortcut": "Ctrl + Shift + E" },
+            { "action": "Search in Project", "shortcut": "Ctrl + Shift + F" }
+        ],
+        "debugging": [
+            { "action": "Start Debugging", "shortcut": "F5" },
+            { "action": "Step Over", "shortcut": "F10" },
+            { "action": "Step Into", "shortcut": "F11" },
+            { "action": "Step Out", "shortcut": "Shift + F11" },
+            { "action": "Toggle Breakpoint", "shortcut": "F9" }
+        ],
+        "terminal": [
+            { "action": "Open New Terminal", "shortcut": "Ctrl + Shift + `" },
+            { "action": "Toggle Terminal", "shortcut": "Ctrl + `" },
+            { "action": "Clear Terminal", "shortcut": "Ctrl + L" }
+        ]
+    }
+}

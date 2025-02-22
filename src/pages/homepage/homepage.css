@@ -1,0 +1,42 @@
+
+.homepage-main{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: linear-gradient(135deg, #0F172A, #1E293B, #6B21A8, #EA580C);
+
+    min-height: 100vh;
+}
+
+.homepage-container{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    max-width: 1840px;
+    height: 80vh;
+    max-height: 840px;
+
+
+    scroll-behavior: smooth;
+    background: linear-gradient(135deg, rgba(15, 15, 15, 1),rgb(59, 59, 59));
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3), 0px 8px 16px rgba(0, 0, 0, 0.5);
+
+}
+
+.homepage-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+}
+
+.homepage-shortcuts{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 32px;
+}
