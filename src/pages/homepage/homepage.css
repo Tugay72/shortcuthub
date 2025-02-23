@@ -6,17 +6,16 @@
     justify-content: center;
 
     background: linear-gradient(135deg, #0F172A, #1E293B, #6B21A8, #EA580C);
-
     min-height: 100vh;
 }
 
 .homepage-container{
     display: flex;
     flex-direction: row;
-    width: 90%;
-    max-width: 1840px;
-    height: 80vh;
-    max-height: 840px;
+    min-width: 90%;
+    min-height: 90vh;
+
+    margin: 32px;
 
 
     scroll-behavior: smooth;
@@ -29,20 +28,23 @@
 .homepage-content{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
     width: 100%;
+    
 }
 
 .homepage-shortcuts{
-    display: grid;
-    grid-template-rows: repeat(4, 1fr);
     gap: 32px;
-    padding: 32px;
+    padding: 24px;
     overflow: auto;
     scrollbar-width: none;
 }
+
+.shortcut-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 16px;
+}
+
 
 .homepage-main hr{
 

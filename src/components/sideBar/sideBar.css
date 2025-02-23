@@ -1,11 +1,19 @@
-.sidebar-main{
-    position: relative;
+.sidebar-main {
+    position: sticky;
     top: 24px;
-    left: 16px;
-
+    left: 8px;
+    min-width: 32px;
+    max-width: 196px;
+    width: 100%;
     height: 95%;
+    margin: 24px 32px 24px 16px;
+}
 
-    margin-right: 48px;
+/* Make the sidebar smaller on screens ≤ 768px (Tablets & Phones) */
+@media (max-width: 768px) {
+    .sidebar-main {
+        max-width: 120px; /* Reduce sidebar width */
+    }
 }
 
 .sidebar-main ul{

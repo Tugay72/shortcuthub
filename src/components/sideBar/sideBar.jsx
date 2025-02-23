@@ -25,15 +25,15 @@ const SideBar = () => {
             let tag = e.keyPath[0];
             navigate(`/homepage/${tag}`);
         }
-
-
     };
+
+
     return (
         <div className='sidebar-main'>
             <Menu
                 onClick={onClick}
                 style={{
-                    width: 196,
+                    maxWidth: '196px',
                     height: '100%',
                     background: 'none'
                 }}

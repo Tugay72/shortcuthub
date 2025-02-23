@@ -11,7 +11,7 @@ const Theme = {
         // Container background color (dark theme)
         colorBgContainer: '#3b3b3b', // Dark background for containers (e.g., cards, modals)
         // Input background (dark for inputs)
-        colorBgBase: '#303030',       // Dark background for inputs
+        colorBgBase: '#303030',// Dark background for inputs
         // Error text color
         colorError: '#FF4D4F',
         // Warning text color

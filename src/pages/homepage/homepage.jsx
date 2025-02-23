@@ -19,8 +19,8 @@ export default function Homepage() {
     const shortcuts = shortcuts_data[tag] || {};
     const [search, setSearch] = useState(null);
 
-    const onSearch = (value, _e, info) => {
-        setSearch(value)
+    const onSearch = (value) => {
+        setSearch(value);
     };
 
     return (
@@ -39,13 +39,17 @@ export default function Homepage() {
                                     flexDirection: 'row',
                                     justifyContent: 'center',
                                     alignItems: 'center',
-                                    gap: '32px'
+                                    width: '90%',
+                                    gap: '16px',
+                                    flexWrap: 'wrap'
+
                                 }}>
 
                                 <h2>{displayTag}</h2>
                                 <Input.Search
                                     style={{
-                                        width: '320px',
+                                        maxWidth: '240px',
+
                                     }}
                                     placeholder='Search'
                                     onSearch={onSearch}
@@ -61,12 +65,7 @@ export default function Homepage() {
                                 return filteredItems.length > 0 ? (
                                     <div key={category} style={{ marginBottom: '0' }}>
                                         <h2>{category.charAt(0).toUpperCase() + category.slice(1)}</h2>
-                                        <div
-                                            style={{
-                                                display: 'grid',
-                                                gridTemplateColumns: 'repeat(4, 1fr)',
-                                                gap: '24px',
-                                            }}>
+                                        <div className='shortcut-items'>
                                             {filteredItems.map((item, index) => (
                                                 <ShortcutContainer
                                                     key={index}

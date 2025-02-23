@@ -2,7 +2,8 @@
 .shortcut-main{
 
 
-    width: 320px;
+    min-width: 120px;
+    max-width: 320px;
     height: 96px;
     padding: 8px;
 
