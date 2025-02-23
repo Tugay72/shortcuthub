@@ -22,7 +22,7 @@ function App() {
                 element={<Homepage/>}
             />
             <Route
-                path='/create_post'
+                path='/suggest'
                 element={<CreatePost/>}
             />
 

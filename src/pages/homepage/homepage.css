@@ -37,6 +37,15 @@
 
 .homepage-shortcuts{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
     gap: 32px;
+    padding: 32px;
+    overflow: auto;
+    scrollbar-width: none;
+}
+
+.homepage-main hr{
+
+    border: 1px solid #a8722109;
+    box-shadow: 0px 2px 16px #2222228a;
 }
