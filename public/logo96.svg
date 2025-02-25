@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="96mm" height="96mm" version="1.1" viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="linearGradient2" x1="4.2992" x2="93.686" y1="5.0157" y2="93.327" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#460e7e" offset=".3075"/>
+   <stop stop-color="#ed8300" offset="1"/>
+  </linearGradient>
+ </defs>
+ <g>
+  <rect x=".89566" y=".89566" width="94.044" height="94.223" ry="16.421" fill="url(#linearGradient2)"/>
+  <text transform="scale(1.1065 .90377)" x="11.438935" y="71.990601" fill="#ffffff" font-family="Haettenschweiler" font-size="54.62px" stroke-width="1.3655" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="11.438935" y="71.990601" fill="#ffffff" font-family="Haettenschweiler" font-size="54.62px" stroke-width="1.3655" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal">Ctrl</tspan></text>
+ </g>
+</svg>
