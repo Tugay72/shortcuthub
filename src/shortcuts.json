@@ -7,7 +7,10 @@
             { "action": "Open Settings", "shortcut": "Ctrl + ," },
             { "action": "Show Command Palette", "shortcut": "Ctrl + Shift + P" },
             { "action": "Toggle Sidebar", "shortcut": "Ctrl + B" },
-            { "action": "User Settings", "shortcut": "Ctrl + ," }
+            { "action": "User Settings", "shortcut": "Ctrl + ," },
+            { "action": "Quick Open (Go to File)", "shortcut": "Ctrl + P" },
+            { "action": "New Window/Instance", "shortcut": "Ctrl + Shift + N" },
+            { "action": "Close Window/Instance", "shortcut": "Ctrl + Shift + W" }
         ],
         "editing": [
             { "action": "Copy Line Down", "shortcut": "Shift + Alt + ↓" },
@@ -19,29 +22,35 @@
             { "action": "Move Line Down", "shortcut": "Alt + ↓" },
             { "action": "Move Line Up", "shortcut": "Alt + ↑" },
             { "action": "Toggle Block Comment", "shortcut": "Shift + Alt + A" },
-            { "action": "Toggle Line Comment", "shortcut": "Ctrl + /" }
+            { "action": "Toggle Line Comment", "shortcut": "Ctrl + /" },
+            { "action": "Undo", "shortcut": "Ctrl + Z" },
+            { "action": "Redo", "shortcut": "Ctrl + Y" }
         ],
         "navigation": [
             { "action": "Go Back", "shortcut": "Alt + ←" },
             { "action": "Go Forward", "shortcut": "Alt + →" },
             { "action": "Open File Explorer", "shortcut": "Ctrl + Shift + E" },
             { "action": "Search in Project", "shortcut": "Ctrl + Shift + F" },
-            { "action": "Switch Between Tabs", "shortcut": "Ctrl + Tab" }
+            { "action": "Switch Between Tabs", "shortcut": "Ctrl + Tab" },
+            { "action": "Navigate to Next Error", "shortcut": "F8" },
+            { "action": "Navigate to Previous Error", "shortcut": "Shift + F8" }
         ],
         "debugging": [
             { "action": "Start Debugging", "shortcut": "F5" },
             { "action": "Step Into", "shortcut": "F11" },
             { "action": "Step Out", "shortcut": "Shift + F11" },
             { "action": "Step Over", "shortcut": "F10" },
-            { "action": "Toggle Breakpoint", "shortcut": "F9" }
+            { "action": "Toggle Breakpoint", "shortcut": "F9" },
+            { "action": "Restart Debugging", "shortcut": "Ctrl + Shift + F5" },
+            { "action": "Stop Debugging", "shortcut": "Shift + F5" }
         ],
         "terminal": [
             { "action": "Clear Terminal", "shortcut": "Ctrl + L" },
             { "action": "Open New Terminal", "shortcut": "Ctrl + Shift + `" },
-            { "action": "Toggle Terminal", "shortcut": "Ctrl + `" }
+            { "action": "Toggle Terminal", "shortcut": "Ctrl + `" },
+            { "action": "Kill Terminal", "shortcut": "Ctrl + Shift + K" }
         ]
     },
-    
 
     "chrome": {
         "tabs": [
@@ -49,7 +58,8 @@
             { "action": "Close Current Tab", "shortcut": "Ctrl + W" },
             { "action": "Reopen Last Closed Tab", "shortcut": "Ctrl + Shift + T" },
             { "action": "Switch to Next Tab", "shortcut": "Ctrl + Tab" },
-            { "action": "Switch to Previous Tab", "shortcut": "Ctrl + Shift + Tab" }
+            { "action": "Switch to Previous Tab", "shortcut": "Ctrl + Shift + Tab" },
+            { "action": "Open a New Incognito Window", "shortcut": "Ctrl + Shift + N" }
         ],
         "windows": [
             { "action": "Open New Window", "shortcut": "Ctrl + N" },
@@ -61,17 +71,17 @@
             { "action": "Hard Refresh Page", "shortcut": "Ctrl + Shift + R" },
             { "action": "Zoom In", "shortcut": "Ctrl + +" },
             { "action": "Zoom Out", "shortcut": "Ctrl + -" },
-            { "action": "Reset Zoom", "shortcut": "Ctrl + 0" }
+            { "action": "Reset Zoom", "shortcut": "Ctrl + 0" },
+            { "action": "Open History", "shortcut": "Ctrl + H" },
+            { "action": "Open Downloads", "shortcut": "Ctrl + J" }
         ],
         "tools": [
             { "action": "Open Developer Tools", "shortcut": "Ctrl + Shift + I" },
             { "action": "Open Task Manager", "shortcut": "Shift + Esc" },
-            { "action": "Open Find Bar", "shortcut": "Ctrl + F" }
+            { "action": "Open Find Bar", "shortcut": "Ctrl + F" },
+            { "action": "Open Bookmarks", "shortcut": "Ctrl + Shift + B" }
         ],
         "menus": [
-            { "action": "Open History", "shortcut": "Ctrl + H" },
-            { "action": "Open Downloads", "shortcut": "Ctrl + J" },
-            { "action": "Open Bookmarks", "shortcut": "Ctrl + Shift + B" },
             { "action": "Open Settings", "shortcut": "Alt + E" }
         ],
         "miscellaneous": [
@@ -111,15 +121,9 @@
             { "action": "Open Find Bar", "shortcut": "Ctrl + F" },
             { "action": "Find Next", "shortcut": "Ctrl + G" },
             { "action": "Find Previous", "shortcut": "Ctrl + Shift + G" }
-        ],
-        "editing": [
-            { "action": "Copy Selected Text", "shortcut": "Ctrl + C" },
-            { "action": "Paste Copied Text", "shortcut": "Ctrl + V" },
-            { "action": "Select All Text", "shortcut": "Ctrl + A" },
-            { "action": "Cut Selected Text", "shortcut": "Ctrl + X" }
         ]
     },
-
+      
     "aftereffects": {
         "general": [
             { "action": "New Project", "shortcut": "Ctrl + Alt + N" },
@@ -127,7 +131,9 @@
             { "action": "Save Project", "shortcut": "Ctrl + S" },
             { "action": "Close Project", "shortcut": "Ctrl + W" },
             { "action": "Undo", "shortcut": "Ctrl + Z" },
-            { "action": "Redo", "shortcut": "Ctrl + Shift + Z" }
+            { "action": "Redo", "shortcut": "Ctrl + Shift + Z" },
+            { "action": "Save As", "shortcut": "Ctrl + Shift + S" },
+            { "action": "Import File", "shortcut": "Ctrl + I" }
         ],
         "navigation": [
             { "action": "Go to Next Frame", "shortcut": "Right Arrow" },
@@ -136,7 +142,9 @@
             { "action": "Go to End of Timeline", "shortcut": "End" },
             { "action": "Play/Pause Animation", "shortcut": "Spacebar" },
             { "action": "Fast Forward Animation", "shortcut": "Shift + Right Arrow" },
-            { "action": "Rewind Animation", "shortcut": "Shift + Left Arrow" }
+            { "action": "Rewind Animation", "shortcut": "Shift + Left Arrow" },
+            { "action": "Zoom In Timeline", "shortcut": "+" },
+            { "action": "Zoom Out Timeline", "shortcut": "-" }
         ],
         "editing": [
             { "action": "Cut", "shortcut": "Ctrl + X" },
@@ -144,27 +152,26 @@
             { "action": "Paste", "shortcut": "Ctrl + V" },
             { "action": "Duplicate Layer", "shortcut": "Ctrl + D" },
             { "action": "Delete Layer", "shortcut": "Delete" },
-            { "action": "Select All", "shortcut": "Ctrl + A" }
+            { "action": "Select All", "shortcut": "Ctrl + A" },
+            { "action": "Trim Layer to Work Area", "shortcut": "Ctrl + Shift + D" }
         ],
         "layer": [
             { "action": "New Solid Layer", "shortcut": "Ctrl + Y" },
             { "action": "New Text Layer", "shortcut": "Ctrl + Alt + Shift + T" },
             { "action": "Show/Hide Layer", "shortcut": "Ctrl + Shift + D" },
             { "action": "Precompose Layers", "shortcut": "Ctrl + Shift + C" },
-            { "action": "Solo Layer", "shortcut": "Ctrl + Shift + S" }
+            { "action": "Solo Layer", "shortcut": "Ctrl + Shift + S" },
+            { "action": "Lock Layer", "shortcut": "Ctrl + L" }
         ],
         "view": [
             { "action": "Fit Composition to Screen", "shortcut": "Ctrl + Alt + 0" },
             { "action": "Zoom In", "shortcut": "Alt + =" },
             { "action": "Zoom Out", "shortcut": "Alt + -" },
-            { "action": "Toggle Full Screen", "shortcut": "Ctrl + Shift + F" }
-        ],
-        "effects": [
-            { "action": "Apply Default Transition", "shortcut": "Ctrl + Shift + D" },
-            { "action": "Toggle Effect Controls", "shortcut": "F3" },
-            { "action": "Add Keyframe", "shortcut": "Alt + Shift + P" }
+            { "action": "Toggle Full Screen", "shortcut": "Ctrl + Shift + F" },
+            { "action": "Show Grid", "shortcut": "Ctrl + '" }
         ]
     },
+    
 
     "illustrator": {
         "general": [
@@ -329,22 +336,37 @@
             { "action": "Reopen Last Closed Tab", "shortcut": "Ctrl + Shift + T" },
             { "action": "Open Incognito Window", "shortcut": "Ctrl + Shift + N" },
             { "action": "Open Bookmark Manager", "shortcut": "Ctrl + Shift + O" },
-            { "action": "Open Developer Tools", "shortcut": "Ctrl + Shift + I" }
+            { "action": "Open Developer Tools", "shortcut": "Ctrl + Shift + I" },
+            { "action": "Reload Page", "shortcut": "Ctrl + R" },
+            { "action": "Hard Refresh (Clear Cache)", "shortcut": "Ctrl + Shift + R" },
+            { "action": "Print Page", "shortcut": "Ctrl + P" },
+            { "action": "Save Page As", "shortcut": "Ctrl + S" },
+            { "action": "Open History", "shortcut": "Ctrl + H" },
+            { "action": "Open Downloads", "shortcut": "Ctrl + J" }
         ],
         "navigation": [
             { "action": "Go to Address Bar", "shortcut": "Ctrl + L" },
             { "action": "Go to Next Tab", "shortcut": "Ctrl + Tab" },
             { "action": "Go to Previous Tab", "shortcut": "Ctrl + Shift + Tab" },
             { "action": "Scroll Down", "shortcut": "Spacebar" },
-            { "action": "Scroll Up", "shortcut": "Shift + Spacebar" }
+            { "action": "Scroll Up", "shortcut": "Shift + Spacebar" },
+            { "action": "Go Back", "shortcut": "Alt + Left Arrow" },
+            { "action": "Go Forward", "shortcut": "Alt + Right Arrow" }
         ],
         "tabs": [
             { "action": "Switch to Next Tab", "shortcut": "Ctrl + Tab" },
             { "action": "Switch to Previous Tab", "shortcut": "Ctrl + Shift + Tab" },
-            { "action": "Open New Window", "shortcut": "Ctrl + N" }
+            { "action": "Open New Window", "shortcut": "Ctrl + N" },
+            { "action": "Close Window", "shortcut": "Ctrl + Shift + W" },
+            { "action": "Mute/Unmute Tab", "shortcut": "Ctrl + M" }
+        ],
+        "zoom": [
+            { "action": "Zoom In", "shortcut": "Ctrl + +" },
+            { "action": "Zoom Out", "shortcut": "Ctrl + -" },
+            { "action": "Reset Zoom", "shortcut": "Ctrl + 0" }
         ]
     },
-
+    
     "firefox": {
         "general": [
             { "action": "Open New Tab", "shortcut": "Ctrl + T" },
@@ -352,135 +374,205 @@
             { "action": "Open Incognito Window", "shortcut": "Ctrl + Shift + P" },
             { "action": "Reopen Last Closed Tab", "shortcut": "Ctrl + Shift + T" },
             { "action": "Open Bookmarks Sidebar", "shortcut": "Ctrl + B" },
-            { "action": "Open Developer Tools", "shortcut": "F12" }
+            { "action": "Open Developer Tools", "shortcut": "F12" },
+            { "action": "Reload Page", "shortcut": "Ctrl + R" },
+            { "action": "Hard Refresh (Clear Cache)", "shortcut": "Ctrl + Shift + R" },
+            { "action": "Print Page", "shortcut": "Ctrl + P" },
+            { "action": "Save Page As", "shortcut": "Ctrl + S" },
+            { "action": "Open History", "shortcut": "Ctrl + H" },
+            { "action": "Open Downloads", "shortcut": "Ctrl + J" }
         ],
         "navigation": [
             { "action": "Go to Address Bar", "shortcut": "Ctrl + L" },
             { "action": "Go to Next Tab", "shortcut": "Ctrl + Tab" },
             { "action": "Go to Previous Tab", "shortcut": "Ctrl + Shift + Tab" },
             { "action": "Scroll Down", "shortcut": "Spacebar" },
-            { "action": "Scroll Up", "shortcut": "Shift + Spacebar" }
-        ],
-        "history": [
+            { "action": "Scroll Up", "shortcut": "Shift + Spacebar" },
             { "action": "Go Back", "shortcut": "Alt + Left Arrow" },
             { "action": "Go Forward", "shortcut": "Alt + Right Arrow" }
+        ],
+        "zoom": [
+            { "action": "Zoom In", "shortcut": "Ctrl + +" },
+            { "action": "Zoom Out", "shortcut": "Ctrl + -" },
+            { "action": "Reset Zoom", "shortcut": "Ctrl + 0" }
         ]
     },
-
+    
     "edge": {
         "general": [
-            { "action": "Open New Tab", "shortcut": "Ctrl + T" },
-            { "action": "Close Current Tab", "shortcut": "Ctrl + W" },
-            { "action": "Reopen Last Closed Tab", "shortcut": "Ctrl + Shift + T" },
-            { "action": "Open InPrivate Window", "shortcut": "Ctrl + Shift + N" },
-            { "action": "Open Favorites", "shortcut": "Ctrl + Shift + O" },
-            { "action": "Open Developer Tools", "shortcut": "F12" }
+        { "action": "Open New Tab", "shortcut": "Ctrl + T" },
+        { "action": "Close Current Tab", "shortcut": "Ctrl + W" },
+        { "action": "Reopen Last Closed Tab", "shortcut": "Ctrl + Shift + T" },
+        { "action": "Open InPrivate Window", "shortcut": "Ctrl + Shift + N" },
+        { "action": "Open Favorites", "shortcut": "Ctrl + Shift + O" },
+        { "action": "Open Developer Tools", "shortcut": "F12" },
+        { "action": "Minimize Window", "shortcut": "Alt + Space + N" },
+        { "action": "Restore Window", "shortcut": "Alt + Space + R" },
+        { "action": "Zoom In", "shortcut": "Ctrl + Plus" },
+        { "action": "Zoom Out", "shortcut": "Ctrl + Minus" },
+        { "action": "Reset Zoom", "shortcut": "Ctrl + 0" },
+        { "action": "Mute Tab", "shortcut": "Ctrl + M" }
         ],
         "navigation": [
-            { "action": "Go to Address Bar", "shortcut": "Ctrl + L" },
-            { "action": "Go to Next Tab", "shortcut": "Ctrl + Tab" },
-            { "action": "Go to Previous Tab", "shortcut": "Ctrl + Shift + Tab" },
-            { "action": "Scroll Down", "shortcut": "Spacebar" },
-            { "action": "Scroll Up", "shortcut": "Shift + Spacebar" }
+        { "action": "Go to Address Bar", "shortcut": "Ctrl + L" },
+        { "action": "Go to Next Tab", "shortcut": "Ctrl + Tab" },
+        { "action": "Go to Previous Tab", "shortcut": "Ctrl + Shift + Tab" },
+        { "action": "Scroll Down", "shortcut": "Spacebar" },
+        { "action": "Scroll Up", "shortcut": "Shift + Spacebar" },
+        { "action": "Open Sidebar", "shortcut": "Ctrl + Shift + B" },
+        { "action": "Show Tabs", "shortcut": "Ctrl + Shift + M" },
+        { "action": "Cycle Through Open Tabs", "shortcut": "Ctrl + 1 to Ctrl + 8" },
+        { "action": "Open Download Page", "shortcut": "Ctrl + J" }
         ],
         "history": [
-            { "action": "Go Back", "shortcut": "Alt + Left Arrow" },
-            { "action": "Go Forward", "shortcut": "Alt + Right Arrow" }
+        { "action": "Go Back", "shortcut": "Alt + Left Arrow" },
+        { "action": "Go Forward", "shortcut": "Alt + Right Arrow" },
+        { "action": "Open History", "shortcut": "Ctrl + H" },
+        { "action": "Clear Browsing Data", "shortcut": "Ctrl + Shift + Delete" }
+        ],
+        "bookmarks": [
+        { "action": "Open Bookmarks Bar", "shortcut": "Ctrl + Shift + B" },
+        { "action": "Add to Favorites", "shortcut": "Ctrl + D" },
+        { "action": "Show Bookmarks Menu", "shortcut": "Alt + F" }
+        ],
+        "tabs": [
+        { "action": "New Window", "shortcut": "Ctrl + N" },
+        { "action": "Reopen Closed Tab", "shortcut": "Ctrl + Shift + T" },
+        { "action": "Duplicate Tab", "shortcut": "Ctrl + K" },
+        { "action": "Pin Tab", "shortcut": "Ctrl + Shift + P" },
+        { "action": "Close All Tabs", "shortcut": "Ctrl + Shift + Q" }
         ]
     },
-
+    
     "opera": {
         "general": [
-            { "action": "Open New Tab", "shortcut": "Ctrl + T" },
-            { "action": "Close Current Tab", "shortcut": "Ctrl + W" },
-            { "action": "Reopen Last Closed Tab", "shortcut": "Ctrl + Shift + T" },
-            { "action": "Open Private Window", "shortcut": "Ctrl + Shift + N" },
-            { "action": "Open Bookmarks", "shortcut": "Ctrl + Shift + B" },
-            { "action": "Open Developer Tools", "shortcut": "Ctrl + Shift + I" }
+        { "action": "Open New Tab", "shortcut": "Ctrl + T" },
+        { "action": "Close Current Tab", "shortcut": "Ctrl + W" },
+        { "action": "Reopen Last Closed Tab", "shortcut": "Ctrl + Shift + T" },
+        { "action": "Open Private Window", "shortcut": "Ctrl + Shift + N" },
+        { "action": "Open Bookmarks", "shortcut": "Ctrl + Shift + B" },
+        { "action": "Open Developer Tools", "shortcut": "Ctrl + Shift + I" },
+        { "action": "Open Downloads", "shortcut": "Ctrl + J" },
+        { "action": "Toggle Fullscreen", "shortcut": "F11" },
+        { "action": "Open History", "shortcut": "Ctrl + H" },
+        { "action": "Mute Tab", "shortcut": "Ctrl + M" },
+        { "action": "Zoom In", "shortcut": "Ctrl + Plus" },
+        { "action": "Zoom Out", "shortcut": "Ctrl + Minus" },
+        { "action": "Reset Zoom", "shortcut": "Ctrl + 0" },
+        { "action": "Open Extensions", "shortcut": "Ctrl + Shift + E" },
+        { "action": "Minimize Window", "shortcut": "Alt + Space + N" },
+        { "action": "Restore Window", "shortcut": "Alt + Space + R" }
         ],
         "navigation": [
-            { "action": "Go to Address Bar", "shortcut": "Ctrl + L" },
-            { "action": "Go to Next Tab", "shortcut": "Ctrl + Tab" },
-            { "action": "Go to Previous Tab", "shortcut": "Ctrl + Shift + Tab" },
-            { "action": "Scroll Down", "shortcut": "Spacebar" },
-            { "action": "Scroll Up", "shortcut": "Shift + Spacebar" }
+        { "action": "Go to Address Bar", "shortcut": "Ctrl + L" },
+        { "action": "Go to Next Tab", "shortcut": "Ctrl + Tab" },
+        { "action": "Go to Previous Tab", "shortcut": "Ctrl + Shift + Tab" },
+        { "action": "Scroll Down", "shortcut": "Spacebar" },
+        { "action": "Scroll Up", "shortcut": "Shift + Spacebar" },
+        { "action": "Open Sidebar", "shortcut": "Ctrl + Shift + S" },
+        { "action": "Show Tabs", "shortcut": "Ctrl + Shift + M" }
         ],
         "history": [
-            { "action": "Go Back", "shortcut": "Alt + Left Arrow" },
-            { "action": "Go Forward", "shortcut": "Alt + Right Arrow" }
+        { "action": "Go Back", "shortcut": "Alt + Left Arrow" },
+        { "action": "Go Forward", "shortcut": "Alt + Right Arrow" },
+        { "action": "Open History", "shortcut": "Ctrl + H" },
+        { "action": "Clear Browsing Data", "shortcut": "Ctrl + Shift + Delete" }
         ]
     },
-
+    
     "safari": {
         "general": [
-            { "action": "Open New Tab", "shortcut": "Command + T" },
-            { "action": "Close Current Tab", "shortcut": "Command + W" },
-            { "action": "Reopen Last Closed Tab", "shortcut": "Command + Shift + T" },
-            { "action": "Open Private Window", "shortcut": "Command + Shift + N" },
-            { "action": "Show Bookmarks", "shortcut": "Command + Option + B" },
-            { "action": "Open Developer Tools", "shortcut": "Command + Option + I" }
+        { "action": "Open New Tab", "shortcut": "Command + T" },
+        { "action": "Close Current Tab", "shortcut": "Command + W" },
+        { "action": "Reopen Last Closed Tab", "shortcut": "Command + Shift + T" },
+        { "action": "Open Private Window", "shortcut": "Command + Shift + N" },
+        { "action": "Show Bookmarks", "shortcut": "Command + Option + B" },
+        { "action": "Open Developer Tools", "shortcut": "Command + Option + I" },
+        { "action": "Open Downloads", "shortcut": "Command + Option + L" },
+        { "action": "Toggle Fullscreen", "shortcut": "Command + Control + F" },
+        { "action": "Open History", "shortcut": "Command + Y" },
+        { "action": "Mute Tab", "shortcut": "Command + Option + M" },
+        { "action": "Zoom In", "shortcut": "Command + Plus" },
+        { "action": "Zoom Out", "shortcut": "Command + Minus" },
+        { "action": "Reset Zoom", "shortcut": "Command + 0" }
         ],
         "navigation": [
-            { "action": "Go to Address Bar", "shortcut": "Command + L" },
-            { "action": "Go to Next Tab", "shortcut": "Command + Option + Right Arrow" },
-            { "action": "Go to Previous Tab", "shortcut": "Command + Option + Left Arrow" },
-            { "action": "Scroll Down", "shortcut": "Spacebar" },
-            { "action": "Scroll Up", "shortcut": "Shift + Spacebar" }
+        { "action": "Go to Address Bar", "shortcut": "Command + L" },
+        { "action": "Go to Next Tab", "shortcut": "Command + Option + Right Arrow" },
+        { "action": "Go to Previous Tab", "shortcut": "Command + Option + Left Arrow" },
+        { "action": "Scroll Down", "shortcut": "Spacebar" },
+        { "action": "Scroll Up", "shortcut": "Shift + Spacebar" },
+        { "action": "Open Sidebar", "shortcut": "Command + Shift + L" },
+        { "action": "Show Tabs", "shortcut": "Command + Shift + 1" }
         ],
         "history": [
-            { "action": "Go Back", "shortcut": "Command + Left Arrow" },
-            { "action": "Go Forward", "shortcut": "Command + Right Arrow" }
+        { "action": "Go Back", "shortcut": "Command + Left Arrow" },
+        { "action": "Go Forward", "shortcut": "Command + Right Arrow" },
+        { "action": "Open History", "shortcut": "Command + Y" },
+        { "action": "Clear Browsing Data", "shortcut": "Command + Shift + Delete" }
         ]
     },
-
+      
     "mongodb": {
         "general": [
-            { "action": "Show Databases", "shortcut": "db.adminCommand('listDatabases')" },
-            { "action": "Show Collections", "shortcut": "show collections" },
-            { "action": "Use Database", "shortcut": "use <db_name>" },
-            { "action": "Drop Collection", "shortcut": "db.<collection_name>.drop()" },
-            { "action": "Insert Document", "shortcut": "db.<collection_name>.insert(<document>)" }
+        { "action": "Show Databases", "shortcut": "db.adminCommand('listDatabases')" },
+        { "action": "Show Collections", "shortcut": "show collections" },
+        { "action": "Use Database", "shortcut": "use <db_name>" },
+        { "action": "Drop Collection", "shortcut": "db.<collection_name>.drop()" },
+        { "action": "Insert Document", "shortcut": "db.<collection_name>.insert(<document>)" },
+        { "action": "Show Current Database", "shortcut": "db" },
+        { "action": "Create Index", "shortcut": "db.<collection_name>.createIndex({<field>: <1 or -1>})" },
+        { "action": "Drop Index", "shortcut": "db.<collection_name>.dropIndex(<index_name>)" },
+        { "action": "Get Collection Stats", "shortcut": "db.<collection_name>.stats()" }
         ],
         "querying": [
-            { "action": "Find All Documents", "shortcut": "db.<collection_name>.find()" },
-            { "action": "Find One Document", "shortcut": "db.<collection_name>.findOne(<query>)" },
-            { "action": "Count Documents", "shortcut": "db.<collection_name>.count()" },
-            { "action": "Sort Documents", "shortcut": "db.<collection_name>.find().sort(<sort_criteria>)" }
+        { "action": "Find All Documents", "shortcut": "db.<collection_name>.find()" },
+        { "action": "Find One Document", "shortcut": "db.<collection_name>.findOne(<query>)" },
+        { "action": "Count Documents", "shortcut": "db.<collection_name>.count()" },
+        { "action": "Sort Documents", "shortcut": "db.<collection_name>.find().sort(<sort_criteria>)" },
+        { "action": "Aggregate Data", "shortcut": "db.<collection_name>.aggregate(<pipeline>)" }
         ],
         "modifying": [
-            { "action": "Update Document", "shortcut": "db.<collection_name>.update(<query>, <update>)" },
-            { "action": "Remove Document", "shortcut": "db.<collection_name>.remove(<query>)" },
-            { "action": "Rename Collection", "shortcut": "db.<old_name>.renameCollection(<new_name>)" }
+        { "action": "Update Document", "shortcut": "db.<collection_name>.update(<query>, <update>)" },
+        { "action": "Remove Document", "shortcut": "db.<collection_name>.remove(<query>)" },
+        { "action": "Rename Collection", "shortcut": "db.<old_name>.renameCollection(<new_name>)" },
+        { "action": "Bulk Write", "shortcut": "db.<collection_name>.bulkWrite(<operations>)" }
         ]
     },
-
+    
     "mysql": {
         "general": [
             { "action": "Show Databases", "shortcut": "SHOW DATABASES;" },
             { "action": "Use Database", "shortcut": "USE <db_name>;" },
             { "action": "Show Tables", "shortcut": "SHOW TABLES;" },
             { "action": "Describe Table", "shortcut": "DESCRIBE <table_name>;" },
-            { "action": "Exit MySQL", "shortcut": "exit;" }
+            { "action": "Exit MySQL", "shortcut": "exit;" },
+            { "action": "Show Current Database", "shortcut": "SELECT DATABASE();" },
+            { "action": "Show User Privileges", "shortcut": "SHOW GRANTS FOR <user>;" }
         ],
         "querying": [
             { "action": "Select All Data", "shortcut": "SELECT * FROM <table_name>;" },
             { "action": "Select Specific Columns", "shortcut": "SELECT <column1>, <column2> FROM <table_name>;" },
             { "action": "Select with Where Clause", "shortcut": "SELECT * FROM <table_name> WHERE <condition>;" },
-            { "action": "Join Tables", "shortcut": "SELECT * FROM <table1> JOIN <table2> ON <table1.column = table2.column>;" }
+            { "action": "Join Tables", "shortcut": "SELECT * FROM <table1> JOIN <table2> ON <table1.column = table2.column>;" },
+            { "action": "Group By", "shortcut": "SELECT <column>, COUNT(*) FROM <table_name> GROUP BY <column>;" }
         ],
         "modifying": [
             { "action": "Insert Data", "shortcut": "INSERT INTO <table_name> (<column1>, <column2>) VALUES (<value1>, <value2>);" },
             { "action": "Update Data", "shortcut": "UPDATE <table_name> SET <column1> = <value1> WHERE <condition>;" },
-            { "action": "Delete Data", "shortcut": "DELETE FROM <table_name> WHERE <condition>;" }
+            { "action": "Delete Data", "shortcut": "DELETE FROM <table_name> WHERE <condition>;" },
+            { "action": "Create Index", "shortcut": "CREATE INDEX <index_name> ON <table_name> (<column>);" }
         ]
     },
-
+    
     "oracle": {
         "general": [
             { "action": "Show Databases", "shortcut": "SELECT * FROM v$database;" },
             { "action": "Show Tables", "shortcut": "SELECT table_name FROM all_tables;" },
             { "action": "Describe Table", "shortcut": "DESC <table_name>;" },
-            { "action": "Exit Oracle", "shortcut": "exit;" }
+            { "action": "Exit Oracle", "shortcut": "exit;" },
+            { "action": "Show Current Schema", "shortcut": "SELECT user FROM dual;" },
+            { "action": "Show User Privileges", "shortcut": "SELECT * FROM user_tab_privs;" }
         ],
         "querying": [
             { "action": "Select All Data", "shortcut": "SELECT * FROM <table_name>;" },
@@ -490,148 +582,175 @@
         "modifying": [
             { "action": "Insert Data", "shortcut": "INSERT INTO <table_name> (<column1>, <column2>) VALUES (<value1>, <value2>);" },
             { "action": "Update Data", "shortcut": "UPDATE <table_name> SET <column1> = <value1> WHERE <condition>;" },
-            { "action": "Delete Data", "shortcut": "DELETE FROM <table_name> WHERE <condition>;" }
+            { "action": "Delete Data", "shortcut": "DELETE FROM <table_name> WHERE <condition>;" },
+            { "action": "Create Index", "shortcut": "CREATE INDEX <index_name> ON <table_name> (<column>);" }
         ]
     },
-
+    
     "postgresql": {
         "general": [
             { "action": "Show Databases", "shortcut": "\\l" },
             { "action": "Use Database", "shortcut": "\\c <db_name>" },
             { "action": "Show Tables", "shortcut": "\\dt" },
             { "action": "Describe Table", "shortcut": "\\d <table_name>" },
-            { "action": "Exit PostgreSQL", "shortcut": "\\q" }
+            { "action": "Exit PostgreSQL", "shortcut": "\\q" },
+            { "action": "Show Current Database", "shortcut": "SELECT current_database();" }
         ],
         "querying": [
             { "action": "Select All Data", "shortcut": "SELECT * FROM <table_name>;" },
             { "action": "Select Specific Columns", "shortcut": "SELECT <column1>, <column2> FROM <table_name>;" },
             { "action": "Select with Where Clause", "shortcut": "SELECT * FROM <table_name> WHERE <condition>;" },
-            { "action": "Join Tables", "shortcut": "SELECT * FROM <table1> INNER JOIN <table2> ON <table1.column = table2.column>;" }
+            { "action": "Join Tables", "shortcut": "SELECT * FROM <table1> INNER JOIN <table2> ON <table1.column = table2.column>;" },
+            { "action": "Group By", "shortcut": "SELECT <column>, COUNT(*) FROM <table_name> GROUP BY <column>;" }
         ],
         "modifying": [
             { "action": "Insert Data", "shortcut": "INSERT INTO <table_name> (<column1>, <column2>) VALUES (<value1>, <value2>);" },
             { "action": "Update Data", "shortcut": "UPDATE <table_name> SET <column1> = <value1> WHERE <condition>;" },
-            { "action": "Delete Data", "shortcut": "DELETE FROM <table_name> WHERE <condition>;" }
+            { "action": "Delete Data", "shortcut": "DELETE FROM <table_name> WHERE <condition>;" },
+            { "action": "Create Index", "shortcut": "CREATE INDEX <index_name> ON <table_name> (<column>);" }
         ]
     },
-
+    
     "redis": {
         "general": [
             { "action": "Show Databases", "shortcut": "SELECT <db_index>" },
             { "action": "Show Keys", "shortcut": "KEYS *" },
-            { "action": "Exit Redis", "shortcut": "exit" }
+            { "action": "Exit Redis", "shortcut": "exit" },
+            { "action": "Show Info", "shortcut": "INFO" }
         ],
         "modifying": [
             { "action": "Set Key", "shortcut": "SET <key> <value>" },
             { "action": "Get Key", "shortcut": "GET <key>" },
             { "action": "Delete Key", "shortcut": "DEL <key>" },
-            { "action": "Expire Key", "shortcut": "EXPIRE <key> <seconds>" }
+            { "action": "Expire Key", "shortcut": "EXPIRE <key> <seconds>" },
+            { "action": "Increment Key", "shortcut": "INCR <key>" }
         ],
         "querying": [
             { "action": "List Keys", "shortcut": "LRANGE <list_key> 0 -1" },
             { "action": "Push to List", "shortcut": "LPUSH <list_key> <value>" },
-            { "action": "Get Set Members", "shortcut": "SMEMBERS <set_key>" }
+            { "action": "Get Set Members", "shortcut": "SMEMBERS <set_key>" },
+            { "action": "Get Sorted Set Members", "shortcut": "ZRANGE <zset_key> 0 -1" }
         ]
     },
-
+    
     "sqlite": {
         "general": [
             { "action": "Show Tables", "shortcut": ".tables" },
             { "action": "Describe Table", "shortcut": ".schema <table_name>" },
-            { "action": "Exit SQLite", "shortcut": ".exit" }
+            { "action": "Exit SQLite", "shortcut": ".exit" },
+            { "action": "Show Current Database", "shortcut": "PRAGMA database_list;" }
         ],
         "querying": [
             { "action": "Select All Data", "shortcut": "SELECT * FROM <table_name>;" },
             { "action": "Select Specific Columns", "shortcut": "SELECT <column1>, <column2> FROM <table_name>;" },
             { "action": "Select with Where Clause", "shortcut": "SELECT * FROM <table_name> WHERE <condition>;" }
-        ],
+            ],
         "modifying": [
             { "action": "Insert Data", "shortcut": "INSERT INTO <table_name> (<column1>, <column2>) VALUES (<value1>, <value2>);" },
             { "action": "Update Data", "shortcut": "UPDATE <table_name> SET <column1> = <value1> WHERE <condition>;" },
-            { "action": "Delete Data", "shortcut": "DELETE FROM <table_name> WHERE <condition>;" }
+            { "action": "Delete Data", "shortcut": "DELETE FROM <table_name> WHERE <condition>;" },
+            { "action": "Create Index", "shortcut": "CREATE INDEX <index_name> ON <table_name> (<column>);" }
         ]
     },
-
+    
     "androidstudio": {
         "general": [
             { "action": "Run App", "shortcut": "Shift + F10" },
             { "action": "Debug App", "shortcut": "Shift + F9" },
             { "action": "Open Recent Project", "shortcut": "Ctrl + Shift + N (Windows/Linux), Cmd + Shift + N (Mac)" },
             { "action": "New File", "shortcut": "Ctrl + N (Windows/Linux), Cmd + N (Mac)" },
-            { "action": "Close File", "shortcut": "Ctrl + F4 (Windows/Linux), Cmd + W (Mac)" }
+            { "action": "Close File", "shortcut": "Ctrl + F4 (Windows/Linux), Cmd + W (Mac)" },
+            { "action": "Save All", "shortcut": "Ctrl + Shift + S (Windows/Linux), Cmd + Shift + S (Mac)" },
+            { "action": "Show Project Structure", "shortcut": "Ctrl + Alt + Shift + S (Windows/Linux), Cmd + ; (Mac)" }
         ],
         "editing": [
             { "action": "Undo", "shortcut": "Ctrl + Z (Windows/Linux), Cmd + Z (Mac)" },
             { "action": "Redo", "shortcut": "Ctrl + Shift + Z (Windows/Linux), Cmd + Shift + Z (Mac)" },
             { "action": "Find", "shortcut": "Ctrl + F (Windows/Linux), Cmd + F (Mac)" },
             { "action": "Replace", "shortcut": "Ctrl + R (Windows/Linux), Cmd + R (Mac)" },
-            { "action": "Go to Line", "shortcut": "Ctrl + G (Windows/Linux), Cmd + L (Mac)" }
+            { "action": "Go to Line", "shortcut": "Ctrl + G (Windows/Linux), Cmd + L (Mac)" },
+            { "action": "Select All", "shortcut": "Ctrl + A (Windows/Linux), Cmd + A (Mac)" },
+            { "action": "Comment Line", "shortcut": "Ctrl + / (Windows/Linux), Cmd + / (Mac)" }
         ],
         "navigation": [
             { "action": "Go to Definition", "shortcut": "Ctrl + B (Windows/Linux), Cmd + B (Mac)" },
             { "action": "Go to File", "shortcut": "Ctrl + Shift + N (Windows/Linux), Cmd + Shift + O (Mac)" },
-            { "action": "Go to Symbol", "shortcut": "Ctrl + Shift + Alt + N (Windows/Linux), Cmd + Shift + Alt + O (Mac)" }
+            { "action": "Go to Symbol", "shortcut": "Ctrl + Shift + Alt + N (Windows/Linux), Cmd + Shift + Alt + O (Mac)" },
+            { "action": "Navigate Back", "shortcut": "Ctrl + Alt + Left Arrow (Windows/Linux), Cmd + Option + Left Arrow (Mac)" },
+            { "action": "Navigate Forward", "shortcut": "Ctrl + Alt + Right Arrow (Windows/Linux), Cmd + Option + Right Arrow (Mac)" }
         ]
     },
-
+    
     "eclipse": {
         "general": [
             { "action": "Run", "shortcut": "Ctrl + F11" },
             { "action": "Debug", "shortcut": "F11" },
             { "action": "Open Perspective", "shortcut": "Ctrl + Shift + P" },
             { "action": "Save", "shortcut": "Ctrl + S" },
-            { "action": "Close", "shortcut": "Ctrl + W" }
+            { "action": "Close", "shortcut": "Ctrl + W" },
+            { "action": "Open File", "shortcut": "Ctrl + O" },
+            { "action": "Close All Files", "shortcut": "Ctrl + Shift + W" }
         ],
         "editing": [
             { "action": "Undo", "shortcut": "Ctrl + Z" },
             { "action": "Redo", "shortcut": "Ctrl + Y" },
             { "action": "Find", "shortcut": "Ctrl + F" },
             { "action": "Replace", "shortcut": "Ctrl + H" },
-            { "action": "Go to Line", "shortcut": "Ctrl + L" }
+            { "action": "Go to Line", "shortcut": "Ctrl + L" },
+            { "action": "Comment Line", "shortcut": "Ctrl + Shift + C" }
         ],
         "navigation": [
             { "action": "Go to Definition", "shortcut": "F3" },
             { "action": "Quick Fix", "shortcut": "Ctrl + 1" },
-            { "action": "Open Type", "shortcut": "Ctrl + Shift + T" }
+            { "action": "Open Type", "shortcut": "Ctrl + Shift + T" },
+            { "action": "Go to Type", "shortcut": "Ctrl + Shift + T" }
         ]
     },
-
+    
     "intellij": {
         "general": [
             { "action": "Run", "shortcut": "Shift + F10" },
             { "action": "Debug", "shortcut": "Shift + F9" },
             { "action": "Open File", "shortcut": "Ctrl + O (Windows/Linux), Cmd + O (Mac)" },
             { "action": "Close File", "shortcut": "Ctrl + F4 (Windows/Linux), Cmd + W (Mac)" },
-            { "action": "Save File", "shortcut": "Ctrl + S (Windows/Linux), Cmd + S (Mac)" }
+            { "action": "Save File", "shortcut": "Ctrl + S (Windows/Linux), Cmd + S (Mac)" },
+            { "action": "Save All", "shortcut": "Ctrl + Shift + S (Windows/Linux), Cmd + Shift + S (Mac)" },
+            { "action": "Show Project Structure", "shortcut": "Ctrl + Alt + Shift + S (Windows/Linux), Cmd + ; (Mac)" }
         ],
         "editing": [
             { "action": "Undo", "shortcut": "Ctrl + Z (Windows/Linux), Cmd + Z (Mac)" },
             { "action": "Redo", "shortcut": "Ctrl + Shift + Z (Windows/Linux), Cmd + Shift + Z (Mac)" },
             { "action": "Find", "shortcut": "Ctrl + F (Windows/Linux), Cmd + F (Mac)" },
             { "action": "Replace", "shortcut": "Ctrl + R (Windows/Linux), Cmd + R (Mac)" },
-            { "action": "Go to Line", "shortcut": "Ctrl + G (Windows/Linux), Cmd + L (Mac)" }
+            { "action": "Go to Line", "shortcut": "Ctrl + G (Windows/Linux), Cmd + L (Mac)" },
+            { "action": "Select All", "shortcut": "Ctrl + A (Windows/Linux), Cmd + A (Mac)" },
+            { "action": "Comment Line", "shortcut": "Ctrl + / (Windows/Linux), Cmd + / (Mac)" }
         ],
         "navigation": [
             { "action": "Go to Definition", "shortcut": "Ctrl + B (Windows/Linux), Cmd + B (Mac)" },
             { "action": "Go to File", "shortcut": "Ctrl + Shift + N (Windows/Linux), Cmd + Shift + O (Mac)" },
-            { "action": "Go to Symbol", "shortcut": "Ctrl + Shift + Alt + N (Windows/Linux), Cmd + Shift + Alt + O (Mac)" }
+            { "action": "Go to Symbol", "shortcut": "Ctrl + Shift + Alt + N (Windows/Linux), Cmd + Shift + Alt + O (Mac)" },
+            { "action": "Navigate Back", "shortcut": "Ctrl + Alt + Left Arrow (Windows/Linux), Cmd + Option + Left Arrow (Mac)" },
+            { "action": "Navigate Forward", "shortcut": "Ctrl + Alt + Right Arrow (Windows/Linux), Cmd + Option + Right Arrow (Mac)" }
         ]
     },
-
+    
     "netbeans": {
         "general": [
             { "action": "Run", "shortcut": "F6" },
             { "action": "Debug", "shortcut": "Ctrl + F5" },
             { "action": "Open File", "shortcut": "Ctrl + O" },
             { "action": "Close File", "shortcut": "Ctrl + F4" },
-            { "action": "Save", "shortcut": "Ctrl + S" }
+            { "action": "Save", "shortcut": "Ctrl + S" },
+            { "action": "Open Recent File", "shortcut": "Ctrl + Shift + O" }
         ],
         "editing": [
             { "action": "Undo", "shortcut": "Ctrl + Z" },
             { "action": "Redo", "shortcut": "Ctrl + Y" },
             { "action": "Find", "shortcut": "Ctrl + F" },
             { "action": "Replace", "shortcut": "Ctrl + H" },
-            { "action": "Go to Line", "shortcut": "Ctrl + G" }
+            { "action": "Go to Line", "shortcut": "Ctrl + G" },
+            { "action": "Comment Line", "shortcut": "Ctrl + Shift + C" }
         ],
         "navigation": [
             { "action": "Go to Definition", "shortcut": "Ctrl + Click on symbol" },
@@ -639,28 +758,32 @@
             { "action": "Go to File", "shortcut": "Ctrl + Shift + N" }
         ]
     },
-
+    
     "pycharm": {
         "general": [
             { "action": "Run", "shortcut": "Shift + F10" },
             { "action": "Debug", "shortcut": "Shift + F9" },
             { "action": "Open File", "shortcut": "Ctrl + O (Windows/Linux), Cmd + O (Mac)" },
             { "action": "Close File", "shortcut": "Ctrl + F4 (Windows/Linux), Cmd + W (Mac)" },
-            { "action": "Save File", "shortcut": "Ctrl + S (Windows/Linux), Cmd + S (Mac)" }
+            { "action": "Save File", "shortcut": "Ctrl + S (Windows/Linux), Cmd + S (Mac)" },
+            { "action": "Save All", "shortcut": "Ctrl + Shift + S (Windows/Linux), Cmd + Shift + S (Mac)" }
         ],
         "editing": [
             { "action": "Undo", "shortcut": "Ctrl + Z (Windows/Linux), Cmd + Z (Mac)" },
             { "action": "Redo", "shortcut": "Ctrl + Shift + Z (Windows/Linux), Cmd + Shift + Z (Mac)" },
             { "action": "Find", "shortcut": "Ctrl + F (Windows/Linux), Cmd + F (Mac)" },
             { "action": "Replace", "shortcut": "Ctrl + R (Windows/Linux), Cmd + R (Mac)" },
-            { "action": "Go to Line", "shortcut": "Ctrl + G (Windows/Linux), Cmd + L (Mac)" }
+            { "action": "Go to Line", "shortcut": "Ctrl + G (Windows/Linux), Cmd + L (Mac)" },
+            { "action": "Select All", "shortcut": "Ctrl + A (Windows/Linux), Cmd + A (Mac)" }
         ],
         "navigation": [
             { "action": "Go to Definition", "shortcut": "Ctrl + B (Windows/Linux), Cmd + B (Mac)" },
             { "action": "Go to File", "shortcut": "Ctrl + Shift + N (Windows/Linux), Cmd + Shift + O (Mac)" },
-            { "action": "Go to Symbol", "shortcut": "Ctrl + Shift + Alt + N (Windows/Linux), Cmd + Shift + Alt + O (Mac)" }
+            { "action": "Go to Symbol", "shortcut": "Ctrl + Shift + Alt + N (Windows/Linux), Cmd + Shift + Alt + O (Mac)" },
+            { "action": "Navigate Back", "shortcut": "Ctrl + Alt + Left Arrow (Windows/Linux), Cmd + Option + Left Arrow (Mac)" }
         ]
     },
+      
 
     "xcode": {
         "general": [
@@ -668,19 +791,25 @@
             { "action": "Stop", "shortcut": "Cmd + . (Period)" },
             { "action": "Open File", "shortcut": "Cmd + O" },
             { "action": "Close File", "shortcut": "Cmd + W" },
-            { "action": "Save", "shortcut": "Cmd + S" }
+            { "action": "Save", "shortcut": "Cmd + S" },
+            { "action": "Show/Hide Navigator", "shortcut": "Cmd + 0" },
+            { "action": "Show/Hide Debug Area", "shortcut": "Cmd + Shift + Y" }
         ],
         "editing": [
             { "action": "Undo", "shortcut": "Cmd + Z" },
             { "action": "Redo", "shortcut": "Shift + Cmd + Z" },
             { "action": "Find", "shortcut": "Cmd + F" },
             { "action": "Replace", "shortcut": "Cmd + R" },
-            { "action": "Go to Line", "shortcut": "Cmd + L" }
+            { "action": "Go to Line", "shortcut": "Cmd + L" },
+            { "action": "Comment Line", "shortcut": "Cmd + /" },
+            { "action": "Select Next Occurrence", "shortcut": "Cmd + D" }
         ],
         "navigation": [
             { "action": "Go to Definition", "shortcut": "Cmd + Click" },
             { "action": "Go to File", "shortcut": "Cmd + Shift + O" },
-            { "action": "Go to Symbol", "shortcut": "Cmd + Shift + Control + O" }
+            { "action": "Go to Symbol", "shortcut": "Cmd + Shift + Control + O" },
+            { "action": "Navigate Back", "shortcut": "Ctrl + Cmd + Left Arrow" },
+            { "action": "Navigate Forward", "shortcut": "Ctrl + Cmd + Right Arrow" }
         ]
     },
 
@@ -690,20 +819,26 @@
             { "action": "Open Workbook", "shortcut": "Ctrl + O" },
             { "action": "Save Workbook", "shortcut": "Ctrl + S" },
             { "action": "Print Workbook", "shortcut": "Ctrl + P" },
-            { "action": "Close Workbook", "shortcut": "Ctrl + W" }
+            { "action": "Close Workbook", "shortcut": "Ctrl + W" },
+            { "action": "Close All Workbooks", "shortcut": "Ctrl + Shift + W" },
+            { "action": "Show/Hide Ribbon", "shortcut": "Ctrl + F1" }
         ],
         "editing": [
             { "action": "Undo", "shortcut": "Ctrl + Z" },
             { "action": "Redo", "shortcut": "Ctrl + Y" },
             { "action": "Find", "shortcut": "Ctrl + F" },
             { "action": "Replace", "shortcut": "Ctrl + H" },
-            { "action": "Go to Cell", "shortcut": "Ctrl + G" }
+            { "action": "Go to Cell", "shortcut": "Ctrl + G" },
+            { "action": "Insert Function", "shortcut": "Shift + F3" },
+            { "action": "AutoSum", "shortcut": "Alt + =" }
         ],
         "navigation": [
             { "action": "Move to Next Cell", "shortcut": "Tab" },
             { "action": "Move to Previous Cell", "shortcut": "Shift + Tab" },
             { "action": "Move to the Beginning of a Row", "shortcut": "Home" },
-            { "action": "Move to the Beginning of a Worksheet", "shortcut": "Ctrl + Home" }
+            { "action": "Move to the Beginning of a Worksheet", "shortcut": "Ctrl + Home" },
+            { "action": "Move to Next Worksheet", "shortcut": "Ctrl + Page Down" },
+            { "action": "Move to Previous Worksheet", "shortcut": "Ctrl + Page Up" }
         ]
     },
 
@@ -712,18 +847,22 @@
             { "action": "New Page", "shortcut": "Ctrl + N" },
             { "action": "Open Notebook", "shortcut": "Ctrl + O" },
             { "action": "Save Notebook", "shortcut": "Ctrl + S" },
-            { "action": "Close OneNote", "shortcut": "Ctrl + W" }
+            { "action": "Close OneNote", "shortcut": "Ctrl + W" },
+            { "action": "Create New Section", "shortcut": "Ctrl + T" }
         ],
         "editing": [
             { "action": "Undo", "shortcut": "Ctrl + Z" },
             { "action": "Redo", "shortcut": "Ctrl + Y" },
             { "action": "Find", "shortcut": "Ctrl + F" },
-            { "action": "Insert Text", "shortcut": "Ctrl + Shift + T" }
+            { "action": "Insert Text", "shortcut": "Ctrl + Shift + T" },
+            { "action": "Insert Table", "shortcut": "Ctrl + T" },
+            { "action": "Insert Link", "shortcut": "Ctrl + K" }
         ],
         "navigation": [
             { "action": "Next Page", "shortcut": "Ctrl + Page Down" },
             { "action": "Previous Page", "shortcut": "Ctrl + Page Up" },
-            { "action": "Go to Section", "shortcut": "Ctrl + Tab" }
+            { "action": "Go to Section", "shortcut": "Ctrl + Tab" },
+            { "action": "Switch between Notebooks", "shortcut": "Ctrl + Shift + Tab" }
         ]
     },
 
@@ -733,13 +872,16 @@
             { "action": "Send Email", "shortcut": "Ctrl + Enter" },
             { "action": "Open Email", "shortcut": "Ctrl + O" },
             { "action": "Reply to Email", "shortcut": "Ctrl + R" },
-            { "action": "Forward Email", "shortcut": "Ctrl + F" }
+            { "action": "Forward Email", "shortcut": "Ctrl + F" },
+            { "action": "Open Calendar", "shortcut": "Ctrl + 2" },
+            { "action": "Open Contacts", "shortcut": "Ctrl + 3" }
         ],
         "navigation": [
             { "action": "Go to Mail", "shortcut": "Ctrl + 1" },
             { "action": "Go to Calendar", "shortcut": "Ctrl + 2" },
             { "action": "Go to Contacts", "shortcut": "Ctrl + 3" },
-            { "action": "Go to Tasks", "shortcut": "Ctrl + 4" }
+            { "action": "Go to Tasks", "shortcut": "Ctrl + 4" },
+            { "action": "Switch between Folders", "shortcut": "Ctrl + Shift + Y" }
         ]
     },
 
@@ -749,36 +891,47 @@
             { "action": "Open Presentation", "shortcut": "Ctrl + O" },
             { "action": "Save Presentation", "shortcut": "Ctrl + S" },
             { "action": "Print Presentation", "shortcut": "Ctrl + P" },
-            { "action": "Close Presentation", "shortcut": "Ctrl + W" }
+            { "action": "Close Presentation", "shortcut": "Ctrl + W" },
+            { "action": "Create New Slide", "shortcut": "Ctrl + M" }
         ],
         "editing": [
             { "action": "Undo", "shortcut": "Ctrl + Z" },
             { "action": "Redo", "shortcut": "Ctrl + Y" },
             { "action": "Find", "shortcut": "Ctrl + F" },
             { "action": "Insert New Slide", "shortcut": "Ctrl + M" },
-            { "action": "Go to Slide", "shortcut": "Ctrl + S" }
+            { "action": "Go to Slide", "shortcut": "Ctrl + S" },
+            { "action": "Insert Text Box", "shortcut": "Ctrl + Shift + X" }
         ],
         "navigation": [
             { "action": "Go to Next Slide", "shortcut": "Page Down" },
             { "action": "Go to Previous Slide", "shortcut": "Page Up" },
-            { "action": "Start Slideshow", "shortcut": "F5" }
+            { "action": "Start Slideshow", "shortcut": "F5" },
+            { "action": "End Slideshow", "shortcut": "Esc" }
         ]
     },
+    
+    
     "teams": {
-        "general": [
-            { "action": "New Chat", "shortcut": "Ctrl + N" },
-            { "action": "Open Activity", "shortcut": "Ctrl + 1" },
-            { "action": "Open Chat", "shortcut": "Ctrl + 2" },
-            { "action": "Open Teams", "shortcut": "Ctrl + 3" },
-            { "action": "Open Calendar", "shortcut": "Ctrl + 4" }
-        ],
-        "navigation": [
-            { "action": "Go to Next Conversation", "shortcut": "Ctrl + Shift + ]" },
-            { "action": "Go to Previous Conversation", "shortcut": "Ctrl + Shift + [" },
-            { "action": "Search", "shortcut": "Ctrl + E" },
-            { "action": "Start/Stop Video", "shortcut": "Ctrl + Shift + O" }
-        ]
-    },
+    "general": [
+        { "action": "New Chat", "shortcut": "Ctrl + N" },
+        { "action": "Open Activity", "shortcut": "Ctrl + 1" },
+        { "action": "Open Chat", "shortcut": "Ctrl + 2" },
+        { "action": "Open Teams", "shortcut": "Ctrl + 3" },
+        { "action": "Open Calendar", "shortcut": "Ctrl + 4" },
+        { "action": "Open Calls", "shortcut": "Ctrl + 5" },
+        { "action": "Open Files", "shortcut": "Ctrl + 6" },
+        { "action": "Open More Options", "shortcut": "Ctrl + Shift + 6" }
+    ],
+    "navigation": [
+        { "action": "Go to Next Conversation", "shortcut": "Ctrl + Shift + ]" },
+        { "action": "Go to Previous Conversation", "shortcut": "Ctrl + Shift + [" },
+        { "action": "Search", "shortcut": "Ctrl + E" },
+        { "action": "Start/Stop Video", "shortcut": "Ctrl + Shift + O" },
+        { "action": "Mute/Unmute", "shortcut": "Ctrl + Space" },
+        { "action": "Answer Call", "shortcut": "Ctrl + Shift + A" },
+        { "action": "End Call", "shortcut": "Ctrl + Shift + H" }
+    ]
+},
 
     "word": {
         "general": [
@@ -789,7 +942,8 @@
             { "action": "Print Document", "shortcut": "Ctrl + P" },
             { "action": "Open Document", "shortcut": "Ctrl + O" },
             { "action": "New Document", "shortcut": "Ctrl + N" },
-            { "action": "Close Document", "shortcut": "Ctrl + W" }
+            { "action": "Close Document", "shortcut": "Ctrl + W" },
+            { "action": "Show/Hide Ribbon", "shortcut": "Ctrl + F1" }
         ],
         "editing": [
             { "action": "Undo", "shortcut": "Ctrl + Z" },
@@ -800,7 +954,9 @@
             { "action": "Paste", "shortcut": "Ctrl + V" },
             { "action": "Find", "shortcut": "Ctrl + F" },
             { "action": "Replace", "shortcut": "Ctrl + H" },
-            { "action": "Go To", "shortcut": "Ctrl + G" }
+            { "action": "Go To", "shortcut": "Ctrl + G" },
+            { "action": "Insert Table", "shortcut": "Ctrl + T" },
+            { "action": "Insert Page Break", "shortcut": "Ctrl + Enter" }
         ],
         "formatting": [
             { "action": "Bold (toggle)", "shortcut": "Ctrl + Shift + B" },
@@ -814,7 +970,8 @@
             { "action": "Align Right", "shortcut": "Ctrl + R" },
             { "action": "Justify Text", "shortcut": "Ctrl + J" },
             { "action": "Insert Hyperlink", "shortcut": "Ctrl + K" },
-            { "action": "Open Styles", "shortcut": "Ctrl + Alt + Shift + S" }
+            { "action": "Open Styles", "shortcut": "Ctrl + Alt + Shift + S" },
+            { "action": "Change Case", "shortcut": "Shift + F3" }
         ],
         "navigation": [
             { "action": "Move to Beginning of Document", "shortcut": "Ctrl + Home" },
@@ -827,7 +984,8 @@
         "view": [
             { "action": "Zoom In", "shortcut": "Ctrl + Alt + =" },
             { "action": "Zoom Out", "shortcut": "Ctrl + Alt + -" },
-            { "action": "Switch Between Print Layout and Web Layout", "shortcut": "Ctrl + Alt + P" }
+            { "action": "Switch Between Print Layout and Web Layout", "shortcut": "Ctrl + Alt + P" },
+            { "action": "Switch Views", "shortcut": "Alt + Ctrl + V" }
         ]
     },
 
@@ -837,14 +995,17 @@
             { "action": "Switch Between Workspaces", "shortcut": "Super + 1-9" },
             { "action": "Take Screenshot", "shortcut": "PrtSc" },
             { "action": "Lock Screen", "shortcut": "Super + L" },
-            { "action": "Shut Down", "shortcut": "Ctrl + Alt + Del" }
+            { "action": "Shut Down", "shortcut": "Ctrl + Alt + Del" },
+            { "action": "Log Out", "shortcut": "Ctrl + Alt + L" }
         ],
         "window_management": [
             { "action": "Close Window", "shortcut": "Alt + F4" },
             { "action": "Minimize Window", "shortcut": "Super + H" },
             { "action": "Maximize Window", "shortcut": "Super + Up Arrow" },
             { "action": "Tile Window Left", "shortcut": "Super + Left Arrow" },
-            { "action": "Tile Window Right", "shortcut": "Super + Right Arrow" }
+            { "action": "Tile Window Right", "shortcut": "Super + Right Arrow" },
+            { "action": "Switch Between Open Windows", "shortcut": "Alt + Tab" },
+            { "action": "Show All Windows", "shortcut": "Super + W" }
         ]
     },
 
@@ -854,14 +1015,17 @@
             { "action": "Open GNOME Activities", "shortcut": "Super" },
             { "action": "Take Screenshot", "shortcut": "PrtSc" },
             { "action": "Lock Screen", "shortcut": "Super + L" },
-            { "action": "Shut Down", "shortcut": "Ctrl + Alt + Del" }
+            { "action": "Shut Down", "shortcut": "Ctrl + Alt + Del" },
+            { "action": "Log Out", "shortcut": "Ctrl + Alt + L" }
         ],
         "window_management": [
             { "action": "Close Window", "shortcut": "Alt + F4" },
             { "action": "Minimize Window", "shortcut": "Super + H" },
             { "action": "Maximize Window", "shortcut": "Super + Up Arrow" },
             { "action": "Tile Window Left", "shortcut": "Super + Left Arrow" },
-            { "action": "Tile Window Right", "shortcut": "Super + Right Arrow" }
+            { "action": "Tile Window Right", "shortcut": "Super + Right Arrow" },
+            { "action": "Switch Between Open Windows", "shortcut": "Alt + Tab" },
+            { "action": "Show All Windows", "shortcut": "Super + W" }
         ]
     },
 
@@ -871,16 +1035,20 @@
             { "action": "Switch Between Workspaces", "shortcut": "Ctrl + Alt + Arrow Keys" },
             { "action": "Take Screenshot", "shortcut": "PrtSc" },
             { "action": "Lock Screen", "shortcut": "Ctrl + Alt + L" },
-            { "action": "Shut Down", "shortcut": "Ctrl + Alt + Del" }
+            { "action": "Shut Down", "shortcut": "Ctrl + Alt + Del" },
+            { "action": "Log Out", "shortcut": "Ctrl + Alt + L" }
         ],
         "window_management": [
             { "action": "Close Window", "shortcut": "Alt + F4" },
             { "action": "Minimize Window", "shortcut": "Super + H" },
             { "action": "Maximize Window", "shortcut": "Super + Up Arrow" },
             { "action": "Tile Window Left", "shortcut": "Super + Left Arrow" },
-            { "action": "Tile Window Right", "shortcut": "Super + Right Arrow" }
+            { "action": "Tile Window Right", "shortcut": "Super + Right Arrow" },
+            { "action": "Switch Between Open Windows", "shortcut": "Alt + Tab" },
+            { "action": "Show All Windows", "shortcut": "Super + W" }
         ]
     },
+
 
     "macos": {
         "general": [
@@ -936,6 +1104,12 @@
             { "action": "Maximize Window", "shortcut": "Super + Up Arrow" },
             { "action": "Tile Window Left", "shortcut": "Super + Left Arrow" },
             { "action": "Tile Window Right", "shortcut": "Super + Right Arrow" }
+        ],
+        "system": [
+            { "action": "Switch Between Workspaces", "shortcut": "Ctrl + Alt + Arrow Keys" },
+            { "action": "Take Screenshot", "shortcut": "PrtSc" },
+            { "action": "Lock Screen", "shortcut": "Ctrl + Alt + L" },
+            { "action": "Shut Down", "shortcut": "Ctrl + Alt + Del" }
         ]
     },
 

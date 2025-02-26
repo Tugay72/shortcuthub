@@ -94,7 +94,11 @@ const CreatePost = () => {
         <div className="create-post-main">
             <div className='create-post-container'>
                 <ConfigProvider theme={Theme}>
-                    <h2>Create a Post</h2>
+                    <span className='go-back'>
+                        <Button onClick={() => navigate('/homepage')}>🢀</Button>
+                    </span>
+
+                    <h2>Suggest Us!</h2>
                     <Form
                         name="createPost"
                         initialValues={{ remember: true }}
@@ -125,37 +129,6 @@ const CreatePost = () => {
                                 maxLength={300} />
                         </Form.Item>
 
-                        <br />
-                        <br />
-
-                        <Form.Item
-                            name="language"
-                            rules={[{ required: true, message: "Please select a specific language" }]}
-                            label='Language'
-                        >
-                            <Select
-                                showSearch
-                                placeholder='Select A Language'
-                                optionFilterProp='label'
-                                onChange={onLanguageChange}
-                                onSearch={onLanguageSearch}
-                                allowClear
-                                options={languages}
-                            ></Select>
-                        </Form.Item>
-
-                        <Form.Item
-                            name="code"
-                            rules={[{ required: true, message: "Please enter a description!" }]}
-                            label='Code'
-                        >
-                            <TextArea
-                                allowClear
-                                showCount
-                                autoSize={{ minRows: 10, maxRows: 72 }}
-                                maxLength={1000} />
-                        </Form.Item>
-
                         <Form.Item>
                             <Button type="primary" htmlType="submit" block
                                 style={{
@@ -165,7 +138,7 @@ const CreatePost = () => {
                                     justifySelf: 'center',
 
                                 }}>
-                                Share
+                                Submit
                             </Button>
                         </Form.Item>
                     </Form>
