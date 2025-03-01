@@ -19,7 +19,9 @@ const Theme = {
         // Dark background for page/container
         colorBgLayout: '#3b3b3b',     // Background color for the layout (dark)
         // Border radius for components like buttons, inputs, etc.
-        borderRadiusBase: '8px', 
+        borderRadiusBase: '8px',
+
+        contentBg: '1b1b1b'
     },
 };
 
