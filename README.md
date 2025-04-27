@@ -8,8 +8,6 @@ A simple and fast website that allows users to search and explore keyboard short
 - [Installation](#installation)
 - [Contributing](#contributing)
 - [License](#license)
-- [Acknowledgments](#acknowledgments)
-- [Contact Information](#contact-information)
 - [Images](#images)
 - [Notes](#notes)
 
