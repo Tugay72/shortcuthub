@@ -56,4 +56,5 @@ Create a new Pull Request.
 This project is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License. See the LICENSE file for details.
 
 ## Images
-![Homepage](github_assets/pcpal.png)
+![Homepage](github_assets/1.png)
+![Homepage](github_assets/2.png)
