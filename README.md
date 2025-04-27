@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# Shortcuts Finder
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple and fast website that allows users to search and explore keyboard shortcuts for popular apps and software. The site provides a fast way to learn and discover keyboard shortcuts to improve productivity and enhance the user experience with commonly used applications.
 
-## Available Scripts
+## Table of Contents
+- [Description](#description)
+- [Features](#features)
+- [Installation](#installation)
+- [Contributing](#contributing)
+- [License](#license)
+- [Acknowledgments](#acknowledgments)
+- [Contact Information](#contact-information)
+- [Images](#images)
+- [Notes](#notes)
 
-In the project directory, you can run:
+## Description
+Shortcuts Finder is a web application designed to help users easily discover keyboard shortcuts for their favorite applications and software. Whether you're working with productivity tools like Microsoft Office, designing in Photoshop, or coding in IDEs like VS Code, this site makes it easy to find shortcuts to speed up your workflow and increase efficiency.
 
-### `npm start`
+With Shortcuts Finder, you can:
+- Search for keyboard shortcuts for a variety of popular apps.
+- Explore shortcut categories based on the type of software.
+- Improve your productivity by learning and using keyboard shortcuts effectively.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
+- **Search Functionality:** Quickly find keyboard shortcuts by searching for app names or specific actions.
+- **Categorized Shortcuts:** View shortcuts grouped by app or software type.
+- **App Suggestions:** Get suggested apps for which you might want to discover more shortcuts.
+- **Mobile-Friendly:** Designed to work smoothly on both desktop and mobile devices.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
 
-### `npm test`
+### Prerequisites
+Make sure you have [Node.js](https://nodejs.org/) installed.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Steps
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Tugay72/Hotel-Management-System.git
+2. Navigate to the project directory:
+   ```bash
+   cd Hotel-Management-System
+3. Install dependencies (if applicable):
+   ```bash
+   npm install
 
-### `npm run build`
+## Contributing
+Fork the repository.
+Create a new branch (git checkout -b feature-branch).
+Make your changes.
+Commit your changes (git commit -m 'Add some feature').
+Push to the branch (git push origin feature-branch).
+Create a new Pull Request.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## License
+This project is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License. See the LICENSE file for details.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Images
+![Homepage](github_assets/pcpal.png)
